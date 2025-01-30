@@ -4,7 +4,7 @@ const root = ReactDOM.createRoot(rootEl); //inizializzare React e creare il Reac
 const h1 = React.createElement('h1', { // passare le proprietà che andranno a modificare il l'elemtno h1 del DOM
     style: { // stile di h1 da passare come oggetto
         color: 'green',
-        width: '200px'
+        width: '150px'
     },
     className: 'big', // aggiunta della classe all'elemento
     onClick: el => { // aggiunte dell'evento al click che mostrerà un console.log
